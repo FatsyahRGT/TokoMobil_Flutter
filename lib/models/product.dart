@@ -19,122 +19,122 @@ class Product {
 List<Product> products = [
   Product(
     id: 1,
-    title: "Pasir Putih ",
-    price: "25.00",
+    title: "Mitsubishi ASX",
+    price: "186.000.000",
     Pcs: 1,
     description:
-        "Digunakan untuk material bangunan seperti beton cor pasang plester.",
-    image: "assets/images/foto_1.png",
-    color: const Color.fromARGB(94, 90, 168, 251),
+        "SUV tangguh dengan desain sporty, performa bertenaga, dan efisiensi tinggi. Cocok untuk petualangan dan kenyamanan berkendara sehari-hari.",
+    image: "assets/images/asx.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 2,
-    title: "Pasir Kuning",
-    price: "35.000",
+    title: "Mitsubishi Attrage",
+    price: "184.000.000",
     Pcs: 1,
     description:
-        "Pasir Bangunan Kuning adalah pasir lunak berkualitas tinggi yang cocok untuk pemasangan batu bata, pemasangan titik, dan pelapisan ulang. Spesifikasi Pasir Kuning. Pasir ini cocok digunakan sebagai adukan pemasangan marmer, keramik, granit, bata merah, batu alam, plester dinding.",
-    image: "assets/images/foto_2.png",
-    color: const Color.fromARGB(255, 185, 242, 255),
+        "Sedan compact yang stylish, irit bahan bakar, dan nyaman. Pilihan sempurna untuk perjalanan sehari-hari dengan efisiensi dan kepraktisan.",
+    image: "assets/images/attrage.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 3,
-    title: "Batu Kali",
-    price: "1.000.000",
+    title: "Mitsubishi Delica",
+    price: "436.000.000",
     Pcs: 1,
     description:
-        "Digunakan untuk pondasi dan pembuatan beton cor, batu ini memastikan kekuatan dan stabilitas struktur. Selain itu, batu split juga berperan penting dalam konstruksi infrastruktur seperti jalan, bantalan kereta api, dan penguatan dasar laut.",
-    image: "assets/images/foto_3.png",
-    color: const Color.fromARGB(255, 217, 220, 222),
+        "MPV serbaguna dengan desain tangguh, kabin luas, dan kemampuan off-road. Ideal untuk keluarga petualang yang mencari kenyamanan dan performa.",
+    image: "assets/images/delica.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 4,
-    title: "Batu Koral",
-    price: "1.500.000",
+    title: "Mitsubishi Eclipse Cross",
+    price: "493.000.000",
     Pcs: 1,
     description:
-        "Digunakan untuk pondasi dan pembuatan beton cor, batu ini memastikan kekuatan dan stabilitas struktur. Selain itu, batu split juga berperan penting dalam konstruksi infrastruktur seperti jalan, bantalan kereta api, dan penguatan dasar laut.",
-    image: "assets/images/foto_4.png",
-    color: const Color.fromARGB(255, 220, 251, 240),
+        "SUV modern dengan desain elegan, performa sporty, dan fitur canggih. Pilihan ideal untuk gaya hidup dinamis dan penuh petualangan.",
+    image: "assets/images/eclipse_cross.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 5,
-    title: "Semen Putih",
-    price: "140.000",
+    title: "Mitsubishi Fuso",
+    price: "965.000.000",
     Pcs: 1,
     description:
-        "Semen putih digunakan dalam bangunan untuk alasan estetika. Material ini sering digunakan untuk memasang ubin, memasang nat, dan mengisi retakan, serta untuk membangun komponen arsitektur seperti dinding beton putih, lantai, dan meja dapur.",
-    image: "assets/images/foto_5.png",
-    color: const Color.fromARGB(255, 252, 253, 184),
+        "Truk andal dengan daya angkut besar, efisiensi bahan bakar, dan durabilitas tinggi. Solusi terbaik untuk kebutuhan bisnis Anda.",
+    image: "assets/images/fuso.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 6,
-    title: "Semen Gresik",
-    price: "175.000",
+    title: "Mitsubishi Galant",
+    price: "35.000.000",
     Pcs: 1,
     description:
-        "digunakan untuk finishing dan aplikasi dekoratif maupun arsitektural pada bangunan umum. Keunggulan: 1.Daya rekat lebih baik, 2.Suhu beton lebih rendah sehingga tidak mudah retak, 3.Lebih mudah dikerjakan, 4.Hasil akhir kuat dan permukaan lebih halus.",
-    image: "assets/images/foto_6.png",
-    color: const Color.fromARGB(255, 249, 218, 155),
+        "Sedan elegan dengan performa bertenaga, kenyamanan premium, dan desain timeless. Pilihan sempurna untuk pengendara yang mengutamakan gaya dan kualitas.",
+    image: "assets/images/galant.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 7,
-    title: "Bata Merah",
-    price: "1.0000",
+    title: "Mitsubishi Grandis",
+    price: "107.000.000",
     Pcs: 1,
     description:
-        "sebagai dinding penyekat bangunan bata merah juga membuat ruangan di dalam rumah lebih sejuk, tembok tidak mudah retak, dan tahan api. Ukuran: Panjang 20cm, Lebar 10cm, Tebal 5cm ",
-    image: "assets/images/foto_7.png",
-    color: const Color.fromARGB(255, 251, 176, 155),
+        "MPV elegan dengan kabin luas, kenyamanan maksimal, dan desain modern. Ideal untuk keluarga yang menginginkan perjalanan nyaman dan stylish.",
+    image: "assets/images/grandis.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 8,
-    title: "Batako",
-    price: "1.500",
+    title: "Mitsubishi L300",
+    price: "232.000.000",
     Pcs: 1,
     description:
-        "sebagai bahan untuk pasangan dinding, juga untuk kontruksi bangunan dengan batako menjadi lebih ringan dan waktu pemasangannya pun jauh lebih cepat dibandingkan batu bata. Ukuran: Panjang 30cm, Lebar 15cm, Tebal 8cm",
-    image: "assets/images/foto_8.png",
-    color: const Color.fromARGB(255, 233, 255, 237),
+        "Kendaraan niaga legendaris yang tangguh, irit bahan bakar, dan memiliki daya angkut besar. Solusi tepat untuk mendukung usaha Anda.",
+    image: "assets/images/l300.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 9,
-    title: "Genteng Kanmuri",
-    price: "12.000",
+    title: "Mitsubishi Lancer",
+    price: "500.000.000",
     Pcs: 1,
     description:
-        "Keunggulan tipe Full Flat, terbuat dari material pilihan yang dibakar hingga suhu 1.100 derajat Celcius, menghasilkan produk genteng keramik dengan profil Full Flat pertama di Indonesia. Dilengkapi dengan tanggul ganda mencegah tampias ,disertai double interlocking. Kanmuri Full Flat sangat cocok diaplikasikan untuk rumah berkonsep gaya modern minimalis. Ukuran: Panjang 348mm, Lebar 350mm, Tebal 5mm, Berat 3kg",
-    image: "assets/images/foto_9.png",
-    color: const Color.fromARGB(255, 226, 237, 243),
+        "Mobil sporty dengan performa tangguh, desain dinamis, dan kenyamanan maksimal, siap menemani perjalananmu dengan keandalan tinggi di berbagai kondisi jalan.",
+    image: "assets/images/lancer.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 10,
-    title: "Seng Gelombang",
-    price: "50.000",
+    title: "Mitsubishi Mirage",
+    price: "420.000.000",
     Pcs: 1,
     description:
-        ".digunakan sebagai material atap dan dinding. dan Atap seng menyerap panas cepat, meningkatkan suhu di dalam bangunan. Ukuran :5 kaki, panjang 150cm, Lebar : 66cm, Lebar Efektif : 61cm, Tebal 0,2mm",
-    image: "assets/images/foto_10.png",
-    color: const Color.fromARGB(255, 254, 255, 201),
+        "Mobil kompak dan efisien dengan desain modern, ideal untuk perkotaan. Hemat bahan bakar, mudah dikendarai, dan dilengkapi fitur canggih untuk pengalaman berkendara yang menyenangkan.",
+    image: "assets/images/mirage.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 11,
-    title: "Asbes",
-    price: "85.000",
+    title: "Mitsubishi Outlander Phev",
+    price: "1.300.000.000",
     Pcs: 1,
     description:
-        "Keunggulan : Lebih kuat, tidak mudah pecah Harga lebih kompetitif sehingga lebih hemat anti tampias dengan gelombang asbes yang persisi mutu sesuai SNI. Ukuran: Panjang 3.0008mm, Lebar 1.050mm, Tebal 4mm, Berat 25kg",
-    image: "assets/images/foto_11.png",
-    color: const Color.fromARGB(255, 194, 247, 255),
+        "SUV plug-in hybrid canggih yang memadukan performa bertenaga, efisiensi bahan bakar, dan ramah lingkungan. Dengan desain premium, kabin luas, serta teknologi mutakhir, siap memberikan kenyamanan dan petualangan tanpa batas.",
+    image: "assets/images/outlander_phev.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
   Product(
     id: 12,
-    title: "Spandek",
-    price: "60.000",
+    title: "Mitsubishi Pajero",
+    price: "571.000.000",
     Pcs: 1,
     description:
-        "Keunggulan : pengaplikasiannya mudah, anti pecah, tahan lama, memiliki daya serap yang tinggi. Ukuran: Panjang 4m, Lebar 102m, Tebal 0,30mm",
-    image: "assets/images/foto_12.png",
-    color: const Color.fromARGB(255, 203, 196, 242),
+        "SUV legendaris dengan performa tangguh, desain gagah, dan kenyamanan kelas atas. Dilengkapi mesin bertenaga dan fitur off-road canggih, Pajero siap menaklukkan medan berat sekaligus memberikan pengalaman berkendara yang mewah.",
+    image: "assets/images/pajero.png",
+    color: const Color.fromARGB(255, 255, 0, 0), // Merah
   ),
 ];

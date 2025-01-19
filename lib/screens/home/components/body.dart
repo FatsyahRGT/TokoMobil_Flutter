@@ -16,7 +16,7 @@ class Body extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPaddin),
           child: Text(
-            "Toko Material",
+            "Mitsubishi Mobile",
             style: Theme.of(context)
                 .textTheme
                 .headlineSmall

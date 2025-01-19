@@ -11,7 +11,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFEEEEEE),
+      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       body: Stack(
         children: <Widget>[
           Positioned(
@@ -24,7 +24,7 @@ class LoginPage extends StatelessWidget {
                 shape: BoxShape.circle,
                 gradient: LinearGradient(
                   colors: [
-                    Color.fromARGB(255, 49, 74, 198),
+                    Color.fromARGB(255, 7, 13, 44),
                     Color.fromARGB(255, 104, 166, 243)
                   ],
                   begin: Alignment.topCenter,
@@ -37,15 +37,6 @@ class LoginPage extends StatelessWidget {
             left: -getSmallDiameter(context) / 4,
             top: -getSmallDiameter(context) / 4,
             child: Container(
-              child: const Center(
-                child: Text(
-                  "Toko Material",
-                  style: TextStyle(
-                      fontFamily: "pacifico",
-                      fontSize: 30,
-                      color: Colors.white),
-                ),
-              ),
               width: getBigDiameter(context),
               height: getBigDiameter(context),
               decoration: const BoxDecoration(
@@ -59,6 +50,15 @@ class LoginPage extends StatelessWidget {
                   end: Alignment.bottomCenter,
                 ),
               ),
+              child: const Center(
+                child: Text(
+                  "Mitsubishi Mobile Login",
+                  style: TextStyle(
+                      fontFamily: "pacifico",
+                      fontSize: 30,
+                      color: Colors.white),
+                ),
+              ),
             ),
           ),
           Positioned(
@@ -69,7 +69,7 @@ class LoginPage extends StatelessWidget {
               height: getBigDiameter(context),
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
-                color: Color.fromARGB(15, 146, 119, 132),
+                color: Color.fromARGB(15, 158, 24, 89),
               ),
             ),
           ),
@@ -85,8 +85,8 @@ class LoginPage extends StatelessWidget {
                   ),
                   margin: const EdgeInsets.fromLTRB(20, 300, 20, 10),
                   padding: const EdgeInsets.fromLTRB(10, 0, 10, 25),
-                  child: Column(
-                    children: const [
+                  child: const Column(
+                    children: [
                       TextField(
                         decoration: InputDecoration(
                           icon: Icon(
@@ -111,11 +111,11 @@ class LoginPage extends StatelessWidget {
                           ),
                           focusedBorder: UnderlineInputBorder(
                             borderSide: BorderSide(
-                                color: Color.fromARGB(255, 37, 58, 221)),
+                                color: Color.fromARGB(255, 255, 255, 255)),
                           ),
                           labelText: "Password:",
                           labelStyle: TextStyle(
-                              color: Color.fromARGB(255, 60, 26, 230)),
+                              color: Color.fromARGB(255, 191, 187, 211)),
                         ),
                       ),
                     ],
@@ -193,9 +193,9 @@ class LoginPage extends StatelessWidget {
                     ],
                   ),
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "Don't Have An Account?",
                       style: TextStyle(

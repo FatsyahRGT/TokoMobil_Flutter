@@ -16,7 +16,7 @@ class AddToCart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Uri whatsApp = Uri.parse(
-      'https://wa.me/6283877131011?text=Hallo,%20ada%20yang%20bisa%20saya%20bantu?',
+      'https://wa.me/62895413010083?text=Hallo,%20ada%20yang%20bisa%20saya%20bantu?',
     );
 
     return Padding(
